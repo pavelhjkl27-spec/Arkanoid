@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+canvas {
+  background: #0a0a2a;
+  border-radius: 16px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5), 0 0 0 2px rgba(100, 150, 255, 0.2);
+  display: block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+canvas:hover {
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.6), 0 0 0 3px rgba(100, 150, 255, 0.4);
+}
